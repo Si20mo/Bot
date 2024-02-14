@@ -17,7 +17,6 @@ from discord.utils import get
 from itertools import cycle
 import asyncio
 import tempfile
-import requests
 
 
 intents = discord.Intents.all()
