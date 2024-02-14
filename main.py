@@ -1,4 +1,3 @@
-import requests
 import json
 import time
 import random
@@ -20,6 +19,7 @@ from itertools import cycle
 from dotenv import load_dotenv
 import asyncio
 import tempfile
+import requests
 
 
 intents = discord.Intents.all()
