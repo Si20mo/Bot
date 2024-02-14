@@ -18,7 +18,6 @@ from itertools import cycle
 import asyncio
 import tempfile
 
-TOKEN = os.getenv("token")
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 @bot.event
@@ -91,4 +90,4 @@ async def get(ctx):
       session.close()
 
     
-bot.run(TOKEN)
+bot.run("MTE5OTMzMDc2NjQ5MzA3MzUyOQ.GevQOv.CshpYR9cyMxtq287FoYZLo5kCVVALm8b_rzWZY")
