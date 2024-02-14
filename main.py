@@ -15,7 +15,6 @@ from discord.ext import tasks
 from discord.ext.commands import has_permissions, MissingPermissions
 from discord.utils import get
 from itertools import cycle
-from dotenv import load_dotenv
 import asyncio
 import tempfile
 import requests
