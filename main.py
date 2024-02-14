@@ -90,4 +90,4 @@ async def get(ctx):
   finally:
       session.close()
     
-bot.run(os.getenv('token'))
+bot.run(os.getenv["token"])
