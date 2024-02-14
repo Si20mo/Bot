@@ -89,5 +89,4 @@ async def get(ctx):
   finally:
       session.close()
 
-    
-bot.run("MTE5OTMzMDc2NjQ5MzA3MzUyOQ.GevQOv.CshpYR9cyMxtq287FoYZLo5kCVVALm8b_rzWZY")
+
