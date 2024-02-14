@@ -2,7 +2,6 @@ import json
 import time
 import random
 import string
-import requests
 import json
 import time
 import random
