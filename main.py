@@ -90,5 +90,4 @@ async def get(ctx):
   finally:
       session.close()
     
-load_dotenv()
 bot.run(os.getenv('token'))
